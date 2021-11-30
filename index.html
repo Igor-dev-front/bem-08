@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08-bem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto:wght@300;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <header class="top-header">
+        <div class="container">
+            <nav class="top-nav top-header__nav">
+                <ul class="nav-contact-list list contact-list">
+                    <li class="nav-contact-list-item contact-list__item">
+                        <a class="contact-link phone  contact-list__link contact-list__link--phone"
+                            href="tel:123-123456789">123-123456789</a>
+                    </li>
+                    <li class="nav-contact-list-item contact-list__item">
+                        <a class="contact-link email contact-list__link contact-list__link--email"
+                            href="mailto:info@ltntcom">info@ltntcom</a>
+                    </li>
+                </ul>
+                <ul class="auth-nav-list list auth-list">
+                    <li class="auth-nav-list-item auth-list__item">
+                        <a class="auth-link auth-list__link" href="/">My Account</a>
+                    </li>
+                    <li class="auth-nav-list-item">
+                        <a class="auth-link auth-list__link" href="/">Wishlist</a>
+                    </li>
+                    <li class="auth-nav-list-item">
+                        <a class="auth-link auth-list__link" href="/">Cart</a>
+                    </li>
+                    <li class="auth-nav-list-item">
+                        <a class="auth-link auth-list__link" href="/">Checkout</a>
+                    </li>
+                    <li class="auth-nav-list-item">
+                        <a class="auth-link auth-list__link" href="/">Login/Registe</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header class="header">
+        <div class="container">
+            <nav class="header-navigation">
+                <h1 class="logo header-navigation__logo">
+                    <a class="logo-link header-navigation__link" href="/">mart</a>
+                </h1>
+                <ul class="menu-list list header-list">
+                    <li class="menu-list-item header-list__item">
+                        <a class="menu-link header-list__link" href="">Home</a>
+                    </li>
+                    <li class="menu-link-item header-list__item">
+                        <a class="menu-link header-list__link" href="/">About Us</a>
+                    </li>
+                    <li class="menu-list-item header-list__item">
+                        <a class="menu-link header-list__link" href="/">page</a>
+                    </li>
+                    <li class="menu-list-item header-list__item">
+                        <a class="menu-link header-list__link" href="/">shop</a>
+                    </li>
+                    <li class="menu-list-item header-list__item">
+                        <a class="menu-link header-list__link" href="/">Blog</a>
+                    </li>
+                    <li class="menu-list-item header-list__item">
+                        <a class="menu-link header-list__link" href="/">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="baner">
+            <div class="text baner__text">
+                <p class="text-title baner__title">DRESSES <span class="bold">&</span> JEANS <br> FROM OURFAMOUS BRANDS
+                    <span class="bold">SALE</span>
+                </p>
+                <a class="buy-now baner__buy" href="/">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <ul class="about-list list about__list">
+                    <li class="about-list-item setting about__item about__item--setting">
+                        <h3 class="about-title about__title">setting</h3>
+                        <p class="about-text about__text">Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
+                            civibus
+                            efficiantur in. Nec id
+                            tempor
+                            imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                    </li>
+                    <li class="about-list-item money about__item about__item--money">
+                        <h3 class="about-title about__title">money back</h3>
+                        <p class="about-text about__text">Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
+                            civibus
+                            efficiantur in. Nec id
+                            tempor
+                            imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                    </li>
+                    <li class="about-list-item worldwide about__item about__item--worldwide">
+                        <h3 class="about-title about__title">worldwide shipping</h3>
+                        <p class="about-text about__text">Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
+                            civibus
+                            efficiantur in. Nec id
+                            tempor
+                            imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                    </li>
+                    <li class="about-list-item compass about__item about__item--compass">
+                        <h3 class="about-title about__title">worldwide shipping</h3>
+                        <p class="about-text about__text">Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
+                            civibus
+                            efficiantur in. Nec id
+                            tempor
+                            imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="new-collection">
+            <div class="container">
+                <h2 class="title new-collection__title">new collection</h2>
+                <ul class="new-list list new-collection__list">
+                    <li class="new-list-item new-collection__item">
+                        <div class="overlay new-collection__overlay">
+                            <img class="new-img new-collection__img" src="/images/new1.png" alt="news">
+                        </div>
+                        <div class="new-description new-collection__description">
+                            <p class="new-name new-collection__name">Blue Tshirt</p>
+                            <p class="new-price new-collection__price">$26</p>
+                        </div>
+                        <div class="actions new-collection__actions">
+                            <button type="button"
+                                class="button icon-like new-collection__icon new-collection__icon--like"></button>
+                            <button type="button"
+                                class="button icon-share new-collection__icon new-collection__icon--share"></button>
+                            <button type="button"
+                                class="button icon-oclock new-collection__icon new-collection__icon--oclock"></button>
+                            <button type="button"
+                                class="button icon-add new-collection__icon new-collection__icon--add"></button>
+                        </div>
+                    </li>
+                    <li class="new-list-item new-collection__item">
+                        <div class="overlay new-collection__overlay">
+                            <img class="new-img new-collection__img" src="/images/new2.png" alt="news">
+                        </div>
+                        <div class="new-description new-collection__description">
+                            <p class="new-name new-collection__name">WOMAN shirt</p>
+                            <p class="new-price new-collection__price">$31</p>
+                        </div>
+                        <div class="actions new-collection__actions">
+                            <button type="button"
+                                class="button icon-like new-collection__icon new-collection__icon--like"></button>
+                            <button type="button"
+                                class="button icon-share new-collection__icon new-collection__icon--share"></button>
+                            <button type="button"
+                                class="button icon-oclock new-collection__icon new-collection__icon--oclock"></button>
+                            <button type="button"
+                                class="button icon-add new-collection__icon new-collection__icon--add"></button>
+                        </div>
+                    </li>
+                    <li class="new-list-item new-collection__item">
+                        <div class="overlay new-collection__overlay">
+                            <img class="new-img new-collection__img" src="/images/new3.png" alt="news">
+                        </div>
+                        <div class="new-description new-collection__description">
+                            <p class="new-name new-collection__name">YELLOW Tshirt</p>
+                            <p class="new-price new-collection__price">$21</p>
+                        </div>
+                        <div class="actions new-collection__actions">
+                            <button type="button"
+                                class="button icon-like new-collection__icon new-collection__icon--like"></button>
+                            <button type="button"
+                                class="button icon-share new-collection__icon new-collection__icon--share"></button>
+                            <button type="button"
+                                class="button icon-oclock new-collection__icon new-collection__icon--oclock"></button>
+                            <button type="button"
+                                class="button icon-add new-collection__icon new-collection__icon--add"></button>
+                        </div>
+                    </li>
+                    <li class="new-list-item new-collection__item">
+                        <div class="overlay new-collection__overlay">
+                            <img class="new-img new-collection__img" src="/images/new4.png" alt="news">
+                        </div>
+                        <div class="new-description new-collection__description">
+                            <p class="new-name new-collection__name">Cool lingerie</p>
+                            <p class="new-price new-collection__price">$56</p>
+                        </div>
+                        <div class="actions new-collection__actions">
+                            <button type="button"
+                                class="button icon-like new-collection__icon new-collection__icon--like"></button>
+                            <button type="button"
+                                class="button icon-share new-collection__icon new-collection__icon--share"></button>
+                            <button type="button"
+                                class="button icon-oclock new-collection__icon new-collection__icon--oclock"></button>
+                            <button type="button"
+                                class="button icon-add new-collection__icon new-collection__icon--add"></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2 class="title product__title">featured products</h2>
+                <ul class="products-list list product__list">
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product1.png" alt="product" width="255">
+                        </div>
+                        <div class="description product_description">
+                            <p class="name product__name">Blue Tshirt</p>
+                            <p class="price product__price">$26</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product2.png" alt="product" width="255">
+                        </div>
+                        <div class="description product__descripton">
+                            <p class="name product__name">Blue Tshirt</p>
+                            <p class="price product__price">$26</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product3.png" alt="product" width="255">
+                        </div>
+                        <div class="description product_description">
+                            <p class="name product__name">Blue Tshirt</p>
+                            <p class="price product__price">$26</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product4.png" alt="product" width="255">
+                        </div>
+                        <div class="description product__descripton">
+                            <p class="name product__name">Blue Tshirt</p>
+                            <p class="price product__price">$26</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product5.png" alt="product" width="255">
+                        </div>
+                        <div class="description product__descripton">
+                            <p class="name product__name">Blue Tshirt</p>
+                            <p class="price product__price">$26</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product6.png" alt="product" width="255">
+                        </div>
+                        <div class="description product_description">
+                            <p class="name product__name">WOMAN shirt</p>
+                            <p class="price product__price">$31</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product7.png" alt="product" width="255">
+                        </div>
+                        <div class="description product_description">
+                            <p class="name product__name">YELLOW Tshirt</p>
+                            <p class="price product__price">$21</p>
+                        </div>
+                    </li>
+                    <li class="product-list-item product__item">
+                        <div class="overlay product__overlay">
+                            <img class="img product__img" src="/images/product8.png" alt="product" width="255">
+                        </div>
+                        <div class="description product_description">
+                            <p class="name product__name">Cool lingerie</p>
+                            <p class="price product__price">$56</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <h2 class="title news__title">latest news</h2>
+                <ul class="news-list list new__list">
+                    <li class="news-list-item news_item">
+                        <img class="news__img" src="/images/news1.png" alt="news">
+                        <p class="news-title news__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean </p>
+                        <p class="news-about news__about">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet
+                            nibh vulputate
+                            cursus a sit amet
+                            mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
+                        <a class="news-link news__link" href="/">Read More</a>
+                    </li>
+                    <li class="news-list-item news__item">
+                        <img class="news__img" src="/images/news2.png" alt="news">
+                        <p class="news-title news__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean </p>
+                        <p class="news-about news__about">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet
+                            nibh vulputate
+                            cursus a sit amet
+                            mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
+                        <a class="news-link news__link" href="/">Read More</a>
+                    </li>
+                    <li class="news-list-item news__item">
+                        <img class="news_img" src="/images/news3.png" alt="news">
+                        <p class="news-title news__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean </p>
+                        <p class="news-about news__about">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet
+                            nibh vulputate
+                            cursus a sit amet
+                            mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
+                        <a class="news-link nwws__link" href="/">Read More</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="newsletter">
+            <h2 class="title newsletter__title">newsletter</h2>
+            <p class="newsletter-test newsletter__test">Follow a collection of news & promotions</p>
+            <form class="form-email newsletter__form">
+                <label>
+                    <input class="news-email newsletter__email" type="email" placeholder="Enter your email here">
+                </label>
+                <button class="email-btn newsletter__btn" type="button"></button>
+            </form>
+        </footer>
+    </main>
+
+</body>
+
+</html>
